@@ -13,6 +13,15 @@ namespace HousesExample
         private int size;
         private int doors;
 
+        public House(string color, int rooms, int size, int doors)
+        {
+            this.color = color;
+            this.rooms = rooms;
+            this.size = size;
+            this.doors = doors;
+
+        }
+
         public void Paint(string color)
         {
             this.color = color;
