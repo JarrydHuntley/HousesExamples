@@ -8,11 +8,23 @@ namespace HousesExample
 {
     class House
     {
+
+        //fields
         private string color;
         private int rooms;
         private int size;
         private int doors;
 
+        private string name;
+        
+        //properties
+        public string Name
+        {
+            get { return this.name; }
+            set { this.name = value; }
+        }
+
+        //constructors
         public House()
         {
             this.color = "Grey";
@@ -37,6 +49,7 @@ namespace HousesExample
             this.doors = doors;
         }
 
+        //methods
         public void Paint(string color)
         {
             this.color = color;
