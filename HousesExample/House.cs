@@ -19,7 +19,6 @@ namespace HousesExample
             this.rooms = rooms;
             this.size = size;
             this.doors = doors;
-
         }
 
         public void Paint(string color)
@@ -30,6 +29,14 @@ namespace HousesExample
         public string CurrentColor()
         {
             return color;
+        }
+
+        public void DisplayHouseInfo()
+        {
+            Console.Write("House Color: " + color);
+            Console.Write(" , Rooms: " + rooms);
+            Console.Write(" , Size is: " + size + " sq/ft");
+            Console.WriteLine(", with: " + doors + " doors");
         }
     }
 }
