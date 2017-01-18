@@ -25,6 +25,8 @@ namespace HousesExample
         {
             this.color = color;
             this.size = size;
+            this.rooms = 1;
+            this.doors = 2;
         }
 
         public House(string color, int rooms, int size, int doors)
