@@ -14,6 +14,8 @@ namespace HousesExample
             House house1 = new House("Green", 4, 1000, 3);
 
             house1.DisplayHouseInfo();
+
+            House house2 = new House("Blue", 700);
             
         }
     }
